@@ -14,6 +14,7 @@
 - Apache 2.4.59
 - PHP 8.3.6
 - Laravel 11
+- Adonis 6.9.0
 
 # Test Method
 
@@ -197,4 +198,16 @@ $ bun ./dist/main.js
 ```bash
 $ cd axum
 $ cargo clean && cargo build && cargo run
+```
+
+## 22. Node Adonis
+
+```bash
+# for adonis I use node v20.14.0
+$ cd adonisjs
+$ npm install
+$ npm run build
+$ cd build
+$ npm ci --omit="dev"
+$ node bin/server.js
 ```
